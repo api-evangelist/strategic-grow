@@ -1,7 +1,26 @@
 aid: strategic-grow
-name: Strategic Grow
-description: Strategic Grow is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/strategic-grow.png
+name: Revolution Precrafted
+description: Revolution Precrafted is a Manila, Philippines-based prefabricated design
+  and proptech company founded in 2015 by Robbie Antonio. It designs and sells limited-edition
+  prefab homes, pavilions, modular hotels, pop-up retail spaces, glamping structures,
+  and furniture created by more than 80 leading global architects, designers, and artists
+  under exclusive partnership. Backed by 500 Startups (500 Durians) and K2 Global, it
+  reached a reported unicorn valuation. The company runs a consumer real-estate and
+  construction business and publishes no public API, developer portal, SDK, or technical
+  documentation. Surfaced as a 500 Global portfolio lead and mislabeled "Strategic Grow"
+  in the source stub; the website revolutionprecrafted.com is authoritative.
 url: https://raw.githubusercontent.com/api-evangelist/strategic-grow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,20 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-original-stub-name: Strategic Grow
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Prefab
+- Proptech
+- Real Estate
+- Construction
+- Architecture
+- Design
+- Manufacturing
+- Philippines
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/strategic-grow-domain-security.yml
 - type: Website
   url: https://revolutionprecrafted.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/revolution-precrafted
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
